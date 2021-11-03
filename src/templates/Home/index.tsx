@@ -6,6 +6,7 @@ import { BurgerMenu } from "../../components/BurgerMenu";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { FiArrowUpCircle } from "react-icons/fi";
 import { useEffect, useState } from "react";
+import { Analytics } from "../../components/Analytics";
 
 export function Home() {
   const [translate, setTranslate] = useState("translateX(3em)");
@@ -25,8 +26,12 @@ export function Home() {
     <main className={styles.contentWrapper}>
       <Head>
         <title>Arthur Freitas | FullStack Developer</title>
-        <meta name="description" content="Arthur Freitas | Developer | Node.js | TypeScript | Nest.js | React.js" />
+        <meta
+          name="description"
+          content="Arthur Freitas | Developer | Node.js | TypeScript | Nest.js | React.js"
+        />
         <link rel="icon" href="/favicon.ico" />
+        <Analytics />
       </Head>
       <header>
         <div className={styles.menu}></div>
@@ -66,13 +71,20 @@ export function Home() {
                 videos about programming and listen to technology podcasts. I
                 work as a backend developer using technologies like
                 <Link href="https://nestjs.com/">
-                  <a target="_blank"> <strong>Nest.js</strong>, </a>
+                  <a target="_blank">
+                    {" "}
+                    <strong>Nest.js</strong>,{" "}
+                  </a>
                 </Link>
                 <Link href="https://nodejs.org/en/">
-                  <a target="_blank"><strong>Node.js</strong>, </a>
+                  <a target="_blank">
+                    <strong>Node.js</strong>,{" "}
+                  </a>
                 </Link>
                 <Link href="https://www.typescriptlang.org/">
-                  <a target="_blank"><strong>TypeScript</strong> </a>
+                  <a target="_blank">
+                    <strong>TypeScript</strong>{" "}
+                  </a>
                 </Link>
                 and more.
               </p>
@@ -152,7 +164,10 @@ export function Home() {
                 If you liked my profile or want to carry out a project or just
                 chat with me, don&apos;t hesitate to send me an email:
                 <Link href="mailto:arthurssfreitas@gmail.com">
-                  <a className={styles.mailLink}> <strong>arthurssfreitas@gmail.com </strong></a>
+                  <a className={styles.mailLink}>
+                    {" "}
+                    <strong>arthurssfreitas@gmail.com </strong>
+                  </a>
                 </Link>
               </p>
             </div>
