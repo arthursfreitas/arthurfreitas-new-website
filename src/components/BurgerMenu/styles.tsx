@@ -37,10 +37,11 @@ export const styles = {
     padding: "0.8em",
     display: "flex",
     flexDirection: "column",
-    fontWeight: 300,
-    fontSize: "xx-large",
+
   },
   bmItem: {
+    fontWeight: 200,
+    fontSize: "xx-large",
     display: "inline-block",
   },
   bmOverlay: {
