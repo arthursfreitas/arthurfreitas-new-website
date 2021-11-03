@@ -66,13 +66,13 @@ export function Home() {
                 videos about programming and listen to technology podcasts. I
                 work as a backend developer using technologies like
                 <Link href="https://nestjs.com/">
-                  <a target="_blank"> Nest.js, </a>
+                  <a target="_blank"> <strong>Nest.js</strong>, </a>
                 </Link>
                 <Link href="https://nodejs.org/en/">
-                  <a target="_blank">Node.js, </a>
+                  <a target="_blank"><strong>Node.js</strong>, </a>
                 </Link>
                 <Link href="https://www.typescriptlang.org/">
-                  <a target="_blank">TypeScript </a>
+                  <a target="_blank"><strong>TypeScript</strong> </a>
                 </Link>
                 and more.
               </p>
@@ -152,7 +152,7 @@ export function Home() {
                 If you liked my profile or want to carry out a project or just
                 chat with me, don&apos;t hesitate to send me an email:
                 <Link href="mailto:arthurssfreitas@gmail.com">
-                  <a className={styles.mailLink}> arthurssfreitas@gmail.com </a>
+                  <a className={styles.mailLink}> <strong>arthurssfreitas@gmail.com </strong></a>
                 </Link>
               </p>
             </div>

@@ -37,6 +37,8 @@ export const styles = {
     padding: "0.8em",
     display: "flex",
     flexDirection: "column",
+    fontWeight: 300,
+    fontSize: "xx-large",
   },
   bmItem: {
     display: "inline-block",
