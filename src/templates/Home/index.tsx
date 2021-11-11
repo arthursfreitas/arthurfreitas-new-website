@@ -2,7 +2,6 @@ import Head from "next/head";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import { BurgerMenu } from "../../components/BurgerMenu";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { FiArrowUpCircle } from "react-icons/fi";
@@ -34,15 +33,6 @@ export function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-PT245PRWVD"
-      ></Script>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-174917320-1"
-      ></Script>
-      <Script async src="/analytics.js"></Script>
       <header>
         <div className={styles.menu}></div>
         <BurgerMenu />
