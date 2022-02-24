@@ -23,6 +23,12 @@ export function Home() {
     window.addEventListener("scroll", checkScrollToTop);
     AOS.init();
   });
+
+  function calcAge(dateString: string) {
+    var birthday = +new Date(dateString);
+    return ~~((Date.now() - birthday) / (31557600000));
+  }
+
   return (
     <main className={styles.contentWrapper}>
       <Head>
@@ -77,7 +83,7 @@ export function Home() {
               <div>
                 <p>
                   My name is Arthur Freitas, I&apos;m from Brazil and I&apos;m
-                  23 years old. I describe myself as a person who loves
+                  {` ${calcAge("Thu Dec 21 1997 00:51:54 GMT-0300 (BRT)")}`} years old. I describe myself as a person who loves
                   programming. In addition to my work, I enjoy creating and
                   contributing to open source projects and building new
                   projects. It helps me to learn a lot of new things. I started
