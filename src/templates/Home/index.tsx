@@ -144,16 +144,12 @@ export function Home() {
                 </div>
                 <div>
                   <h3>Madri Desentupidora</h3>
-                  <Link href="https://www.madridesentupidora.com.br/">
-                    <a target="_blank">
-                      <Image
-                        src="/madri-desentupidora.jpg"
-                        alt="Madri Desentupidora"
-                        width={1280 / 2}
-                        height={720 / 2}
-                      />
-                    </a>
-                  </Link>
+                  <Image
+                    src="/madri-desentupidora.jpg"
+                    alt="Madri Desentupidora"
+                    width={1280 / 2}
+                    height={720 / 2}
+                  />
                 </div>
                 <div>
                   <h3>Gracê Doceria</h3>
